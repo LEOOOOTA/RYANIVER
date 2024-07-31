@@ -1,0 +1,40 @@
+body {
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff88887e;
+}
+
+.container {
+    text-align: center;
+    background: #f8bdbd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#temporizador {
+    font-size: 5em;
+    margin: 20px 0;
+}
+
+#hours, #minutes, #seconds {
+    padding: 0 10px;
+}
+
+#imagem-container {
+    margin-top: 20px;
+}
+
+#imagem {
+    max-width: 100%;
+    height: auto;
+    display: none; /* Inicialmente ocultar a imagem */
+}
+
+
+
